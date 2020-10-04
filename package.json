@@ -1,0 +1,37 @@
+{
+    "name": "hexaform",
+    "version": "0.1.1",
+    "description": "DDD Hexagonal Platform",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/mightytroll/hexaform"
+    },
+    "author": {
+        "name": "Igor Stojadinovic",
+        "email": "mightytroll@gmail.com",
+        "url": "https://www.linkedin.com/in/igorstojadinovic"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.19.2",
+        "config": "^3.3.1",
+        "cors": "^2.8.5",
+        "esm": "^3.2.25",
+        "express": "^4.17.1",
+        "lodash": "^4.17.20",
+        "winston": "^3.3.3"
+    },
+    "devDependencies": {
+        "@babel/preset-env": "^7.11.0",
+        "babel-jest": "^26.2.2",
+        "faker": "^4.1.0",
+        "jest": "^26.2.2",
+        "jest-environment-node": "^26.2.0",
+        "nodemon": "^2.0.4",
+        "prettier": "^2.0.5",
+        "supertest": "^4.0.2"
+    }
+}
